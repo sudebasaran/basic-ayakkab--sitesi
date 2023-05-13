@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nanum+Gothic&family=Noto+Sans+Avestan&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans Avestan', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 97vh;
+
+}
+
+
+nav .nav-links a {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+nav .nav-links {
+    display: flex;
+    column-gap: 30px;
+    padding-right: 8px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2%;
+    flex-basis: 50%;
+
+
+
+}
+
+.col-2 {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50%;
+
+}
+
+.row .col-1 h1 {
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 5px;
+    padding-right: 0%;
+}
+
+.row .col-1 p {
+    padding-right: 0%;
+
+    line-height: 1.6;
+}
+
+.row .col-1 .buttons {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.col-1 .buttons button,
+.col-1 .buttons a {
+    display: inline-block;
+    width: fit-content;
+    padding: 18px 50px;
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.col-1 .buttons button:hover,
+.col-1 .buttons a:hover {
+    background: #EEEEEE;
+    transform: translateY(-5px);
+
+}
+
+.col-2 .shadow-image {
+    width: 80%;
+
+}
+
+.col-2 .shadow-image img {
+    width: 80%;
+    transform: rotate(-20deg);
+    transition: 0.5s ease;
+    position: relative;
+    left: 200px;
+
+}
+
+.col-2 .shadow-image img:hover {
+    transform: rotate(0);
+}
+
+.col-2 {
+    background-color: black;
+}
+
+
+
+.small-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 100px;
+
+
+}
+
+.small-img img {
+    width: 120px;
+    transform: rotate(-20deg);
+    transition: 0.5s ease;
+
+}
+
+.small-img:nth-child(1),
+.small-img:nth-child(3) {
+    background-color: #EEEEEE;
+
+}
+
+.small-img:nth-child(2) {
+    background-color: #FF6D28;
+}
+
+.small-img img:hover {
+    transform: rotate(0);
+
+}
